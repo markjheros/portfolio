@@ -105,12 +105,12 @@ section .fab {
 }
 
 #skills .card {
+    width: 1111px;
     background-color: #f8f9fa;
     border: 1px solid #ddd;
     border-radius: 8px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px; 
 }
 
 #skills .card:hover {
@@ -119,7 +119,7 @@ section .fab {
 }
 
 #skills .card.h-100 {
-    height: 100%; 
+    height: 90%;
 }
 
 #skills .card .pol {
@@ -133,31 +133,20 @@ section .fab {
 
 @media (max-width: 768px) {
     #skills .card {
-        width: 100%; 
-        margin-bottom: 15px; 
-    }
-
-    #skills .row {
-        flex-direction: column; 
-        align-items: center; 
-    }
-
-    #skills h1 {
-        font-size: 2rem; 
-        margin-top: 0;
+        margin-bottom: 20px;
     }
 }
 
-@media (max-width: 480px) {
-    #skills .card .pol {
-        font-size: 50px; 
-    }
-
-    #skills h1 {
-        font-size: 1.5rem; 
+@media (max-width: 768px) {
+    #skills .card {
+        width: 500px;
+        background-color: #f8f9fa;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
     }
 }
-
 
 @media (max-width: 768px) {
     #services .card {
